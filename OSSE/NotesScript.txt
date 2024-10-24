@@ -1,0 +1,21 @@
+touch script.sh
+chmod u+x script.sh
+#!/bin/sh
+
+
+
+
+
+
+
+
+
+# usage 
+
+if [ $# -ne 1 ] ; then    
+    echo "$0 to much arg"
+    exit 1
+fi
+
+man test
+
